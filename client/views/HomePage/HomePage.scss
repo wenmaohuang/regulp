@@ -1,0 +1,80 @@
+.container {
+  width: 100%;
+  // background-color: #aaa;
+
+  .main {
+    // color: #ccc;
+    background-image: url("https://www.fyyd.vip/img/3.jpg");
+    background-size: cover;
+
+  }
+
+  footer {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #232328;
+    color: #fff;
+    padding: 100px 0;
+
+    .about {
+      width: 100%;
+
+      p {
+        padding: 10px;
+        text-align: center;
+
+        &:nth-child(1) {
+          font-size: 20px;
+        }
+
+        a {
+          color: #fff;
+          font-size: 16px;
+          text-align: center;
+        }
+      }
+    }
+
+    .link {
+      width: 100%;
+
+      p {
+        padding: 10px;
+        text-align: center;
+
+        &:nth-child(1) {
+          font-size: 20px;
+        }
+
+        a {
+          color: #fff;
+          font-size: 16px;
+          text-align: center;
+        }
+      }
+    }
+
+    .connect {
+      width: 100%;
+
+      p {
+        padding: 10px;
+        text-align: center;
+
+        &:nth-child(1) {
+          font-size: 20px;
+        }
+
+        a {
+          color: #fff;
+          font-size: 16px;
+          text-align: center;
+        }
+      }
+    }
+
+  }
+
+}
